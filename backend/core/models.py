@@ -4,6 +4,7 @@ from django.contrib.auth.models import AbstractUser
 from django.utils import timezone
 from django.core.validators import MinValueValidator
 
+# Class for different types of users
 class User(AbstractUser):
     # Roles for authorization gates
     ROLE_PIN = 'PIN'
